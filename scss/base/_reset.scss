@@ -1,0 +1,49 @@
+@import "../abstracts/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.btn-c1 {
+  color: $c4;
+  padding: 16px 35px;
+  &:hover {
+    border-radius: 25px;
+    background-color: $c2;
+    color: white;
+  }
+}
+
+.btn-c2 {
+  background-color: $c2;
+  color: #fff;
+  border-radius: 41px;
+  width: 230px;
+  height: 64px;
+  &:hover {
+    color: #fff;
+    background-color: #535460;
+  }
+}

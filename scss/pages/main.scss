@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import "../abstracts/mixin";
+// @import "../abstracts/variables";
+@import "../abstracts/variables";
+
+@import "../base/reset";
+
+@import "../layout/header";
+@import "../layout/footer";
+
+#hero{
+    background-color:#033648;
+    padding-bottom: 320px;
+    
+    .left-side{
+        margin-top: 150px;
+
+        .my-name{
+            background-color: rgba(9, 69, 86, 1);
+            padding: 16px 30px;
+            border-radius: 30px;
+            font-family: 'Schoolbell';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+        }
+
+        h2{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 80px;
+            margin-top: 40px;
+        }
+
+        .product{
+            margin-top: 30px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 29px;
+            color: #849499;
+        }
+
+        .hire-me{
+            margin-top: 50px;
+        }
+    }
+
+    .right-side{
+
+        .comment{
+            padding: 20px 28px 0px 28px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 3px solid rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(29px);
+            border-radius: 20px;
+            width: 300px;
+            top: 200px;
+            left: 400px;
+
+            .text{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+            }
+
+            .who-is-he{
+
+                img{
+                    vertical-align: top;
+                    display: inline-block;
+                }
+
+                h6{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+
+                p{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 22px;
+                    color: $c4;
+                }
+            }
+        }
+    }
+}
+
+#services{
+    margin-bottom: 200px;
+    
+    .dad-statistic{
+        background-color: #fff;
+        padding: 78px 150px;
+        box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+        border-radius: 30px;
+        margin-top: -150px;
+
+        p:first-child{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 22px;
+            color: rgba(38, 90, 106, 1);
+        }
+    }
+    
+    .statistic{
+        margin-top: 70px;
+
+        .achievment{
+
+            .number{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 22px;
+                color: $c5;
+            }
+
+            .success{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: $c5;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .service{
+        margin-top: 200px;
+
+        .sec-name{
+            font-family: 'Schoolbell';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 22px;
+            text-decoration-line: underline;
+            color: #265A6A;
+        }
+
+        p:nth-child(2){
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 60px;
+            color: $c5;
+            margin-top: 30px;
+        }
+
+        .box-dad{
+            margin-top: 70px;
+
+            .box:nth-child(2){
+                
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+
+            .box{
+                background-image: url('../../images/green-circle.png');
+                background-repeat: no-repeat;
+                background-position: 19px 20px;
+                padding: 30px;
+                box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+
+                &:hover{
+                    background-color: $c5;
+                    background-image: url('../../images/yellow-circle.png');
+                    background-repeat: no-repeat;
+                    background-position: 19px 20px;
+
+                    p{
+                        color: rgba(178, 187, 189, 1);
+                    }
+
+                    h4{
+                        color: white !important;
+                    }
+                }
+
+                h4{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 29px;
+                    color: #0F1221;
+                    margin-top: 45px;
+                }
+
+                p{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin-top: 10px;
+                    color: rgba(105, 105, 105, 1);
+                }
+            }
+        }
+    }
+}
+
+#my-portfolio{
+
+    h2:first-child{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 56px;
+        color: $c5;
+    }
+
+    .description{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 29px;
+        color: $c3;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    .card-dad{
+
+        .card{
+            border: none !important;
+            
+            h3{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 29px;
+                margin-top: 40px;
+                color: $c5;
+            }
+
+            p{
+                margin-top: 10px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #757575;
+            }
+        }
+    }
+}
+
+footer{
+    padding-bottom: 120px;
+
+    .footer{
+        margin-top: 110px;
+        
+        h5{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: $c5;
+            margin-bottom: 28px;
+        }
+
+        a{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #787878;
+            margin-top: 10px;
+            display: inline-block;
+
+            &:hover{
+                color: black;
+                font-weight: 500;
+            }
+        }
+
+        .social-medias{
+
+            .lorem{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #757575;
+            }
+           
+            .contact-me{
+                margin-top: 50px;
+                
+                .github-icon{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+
+        }
+    }
+}
+
+
+@media screen and (max-width:576px){
+    .footer{
+        .social-medias,.pages,.services,.contact{
+            --bs-gutter-x: 50% !important;
+        }
+    }
+}

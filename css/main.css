@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.btn-c1 {
+  color: #849499;
+  padding: 16px 35px;
+}
+.btn-c1:hover {
+  border-radius: 25px;
+  background-color: rgb(255, 166, 58);
+  color: white;
+}
+
+.btn-c2 {
+  background-color: rgb(255, 166, 58);
+  color: #fff;
+  border-radius: 41px;
+  width: 230px;
+  height: 64px;
+}
+.btn-c2:hover {
+  color: #fff;
+  background-color: #535460;
+}
+
+#hero {
+  background-color: #033648;
+  padding-bottom: 320px;
+}
+#hero .left-side {
+  margin-top: 150px;
+}
+#hero .left-side .my-name {
+  background-color: rgb(9, 69, 86);
+  padding: 16px 30px;
+  border-radius: 30px;
+  font-family: "Schoolbell";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+}
+#hero .left-side h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  margin-top: 40px;
+}
+#hero .left-side .product {
+  margin-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #849499;
+}
+#hero .left-side .hire-me {
+  margin-top: 50px;
+}
+#hero .right-side .comment {
+  padding: 20px 28px 0px 28px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(29px);
+          backdrop-filter: blur(29px);
+  border-radius: 20px;
+  width: 300px;
+  top: 200px;
+  left: 400px;
+}
+#hero .right-side .comment .text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+#hero .right-side .comment .who-is-he img {
+  vertical-align: top;
+  display: inline-block;
+}
+#hero .right-side .comment .who-is-he h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+#hero .right-side .comment .who-is-he p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #849499;
+}
+
+#services {
+  margin-bottom: 200px;
+}
+#services .dad-statistic {
+  background-color: #fff;
+  padding: 78px 150px;
+  box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+  margin-top: -150px;
+}
+#services .dad-statistic p:first-child {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  color: rgb(38, 90, 106);
+}
+#services .statistic {
+  margin-top: 70px;
+}
+#services .statistic .achievment .number {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 22px;
+  color: rgb(8, 84, 108);
+}
+#services .statistic .achievment .success {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgb(8, 84, 108);
+  margin-top: 30px;
+}
+#services .service {
+  margin-top: 200px;
+}
+#services .service .sec-name {
+  font-family: "Schoolbell";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #265A6A;
+}
+#services .service p:nth-child(2) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+  color: rgb(8, 84, 108);
+  margin-top: 30px;
+}
+#services .service .box-dad {
+  margin-top: 70px;
+}
+#services .service .box-dad .box:nth-child(2) img {
+  width: 30px;
+  height: 30px;
+}
+#services .service .box-dad .box {
+  background-image: url("../../images/green-circle.png");
+  background-repeat: no-repeat;
+  background-position: 19px 20px;
+  padding: 30px;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+}
+#services .service .box-dad .box:hover {
+  background-color: rgb(8, 84, 108);
+  background-image: url("../../images/yellow-circle.png");
+  background-repeat: no-repeat;
+  background-position: 19px 20px;
+}
+#services .service .box-dad .box:hover p {
+  color: rgb(178, 187, 189);
+}
+#services .service .box-dad .box:hover h4 {
+  color: white !important;
+}
+#services .service .box-dad .box h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0F1221;
+  margin-top: 45px;
+}
+#services .service .box-dad .box p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 10px;
+  color: rgb(105, 105, 105);
+}
+
+#my-portfolio h2:first-child {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  color: rgb(8, 84, 108);
+}
+#my-portfolio .description {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: rgb(117, 117, 117);
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+#my-portfolio .card-dad .card {
+  border: none !important;
+}
+#my-portfolio .card-dad .card h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 29px;
+  margin-top: 40px;
+  color: rgb(8, 84, 108);
+}
+#my-portfolio .card-dad .card p {
+  margin-top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+}
+
+footer {
+  padding-bottom: 120px;
+}
+footer .footer {
+  margin-top: 110px;
+}
+footer .footer h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgb(8, 84, 108);
+  margin-bottom: 28px;
+}
+footer .footer a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #787878;
+  margin-top: 10px;
+  display: inline-block;
+}
+footer .footer a:hover {
+  color: black;
+  font-weight: 500;
+}
+footer .footer .social-medias .lorem {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #757575;
+}
+footer .footer .social-medias .contact-me {
+  margin-top: 50px;
+}
+footer .footer .social-medias .contact-me .github-icon {
+  width: 35px;
+  height: 35px;
+}
+
+@media screen and (max-width: 576px) {
+  .footer .social-medias, .footer .pages, .footer .services, .footer .contact {
+    --bs-gutter-x: 50% !important;
+  }
+}/*# sourceMappingURL=main.css.map */
