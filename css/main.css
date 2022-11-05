@@ -198,6 +198,9 @@ footer .footer .social-medias .contact-me .github-icon {
 #hero .left-side .hire-me {
   margin-top: 50px;
 }
+#hero .right-side img {
+  margin-left: -6% !important;
+}
 
 #services {
   margin-bottom: 200px;
