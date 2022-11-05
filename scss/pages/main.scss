@@ -186,6 +186,52 @@
     }
 }
 
+#experiance{
+    background-image: url('../../images/back-image.png');
+    padding: 100px 0;
+    margin-bottom: 200px;
+
+    .right-side{
+        margin-top: 90px;
+        .text{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #FFFFFF;
+            margin-top: 40px;
+        }
+
+        .dev-name{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #AABFC6;
+            margin-top: 20px;
+        }
+        .carousel-control-next,
+        .carousel-control-prev{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            padding: 10px;
+            margin-left: -430px;
+            margin-top: 260px;
+        }
+    
+        .carousel-control-next{
+            left: calc(50% + 200px);
+        }
+    
+        .carousel-control-prev{
+            left: calc(50% + 100px);
+        }
+    }
+}
+
 #my-portfolio{
     padding-bottom: 200px;
 
@@ -400,8 +446,13 @@
     .carousel-control-next{
         left: 60% !important;
     }
+    #experiance .right-side .carousel-control-prev,#experiance .right-side .carousel-control-next{
+        background-color: black !important;
+    }
     
 }
+
+
 
 @media screen and (max-width:768px){
     #hero .left-side h2{
@@ -450,7 +501,12 @@
             margin-right: auto !important;
         }
     }
+    
+    #experiance .right-side .carousel-control-prev,#experiance .right-side .carousel-control-next{
+        margin-top: 400px !important;
+    }
 }
+
 
 
 // #preloader{

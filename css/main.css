@@ -304,6 +304,48 @@ footer .footer .social-medias .contact-me .github-icon {
   color: rgb(105, 105, 105);
 }
 
+#experiance {
+  background-image: url("../../images/back-image.png");
+  padding: 100px 0;
+  margin-bottom: 200px;
+}
+#experiance .right-side {
+  margin-top: 90px;
+}
+#experiance .right-side .text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+#experiance .right-side .dev-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #AABFC6;
+  margin-top: 20px;
+}
+#experiance .right-side .carousel-control-next,
+#experiance .right-side .carousel-control-prev {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: -430px;
+  margin-top: 260px;
+}
+#experiance .right-side .carousel-control-next {
+  left: calc(50% + 200px);
+}
+#experiance .right-side .carousel-control-prev {
+  left: calc(50% + 100px);
+}
+
 #my-portfolio {
   padding-bottom: 200px;
 }
@@ -487,6 +529,9 @@ footer .footer .social-medias .contact-me .github-icon {
   .carousel-control-next {
     left: 60% !important;
   }
+  #experiance .right-side .carousel-control-prev, #experiance .right-side .carousel-control-next {
+    background-color: black !important;
+  }
 }
 @media screen and (max-width: 768px) {
   #hero .left-side h2 {
@@ -525,5 +570,8 @@ footer .footer .social-medias .contact-me .github-icon {
   #services .service .box-dad .box > * img {
     margin-left: auto !important;
     margin-right: auto !important;
+  }
+  #experiance .right-side .carousel-control-prev, #experiance .right-side .carousel-control-next {
+    margin-top: 400px !important;
   }
 }/*# sourceMappingURL=main.css.map */
