@@ -29,6 +29,7 @@ input:focus {
 .btn-c1 {
   color: #849499;
   padding: 16px 35px;
+  background-color: #033648;
 }
 .btn-c1:hover {
   border-radius: 25px;
@@ -85,44 +86,6 @@ input:focus {
 #hero .left-side .hire-me {
   margin-top: 50px;
 }
-#hero .right-side .comment {
-  padding: 20px 28px 0px 28px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 3px solid rgba(255, 255, 255, 0.5);
-  -webkit-backdrop-filter: blur(29px);
-          backdrop-filter: blur(29px);
-  border-radius: 20px;
-  width: 300px;
-  top: 200px;
-  left: 400px;
-}
-#hero .right-side .comment .text {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-}
-#hero .right-side .comment .who-is-he img {
-  vertical-align: top;
-  display: inline-block;
-}
-#hero .right-side .comment .who-is-he h6 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-}
-#hero .right-side .comment .who-is-he p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 22px;
-  color: #849499;
-}
-
 #services {
   margin-bottom: 200px;
 }
@@ -185,6 +148,7 @@ input:focus {
 }
 #services .service .box-dad {
   margin-top: 70px;
+  --bs-gutter-y:1.5rem !important;
 }
 #services .service .box-dad .box:nth-child(2) img {
   width: 30px;
@@ -313,8 +277,30 @@ footer .footer .social-medias .contact-me .github-icon {
   height: 35px;
 }
 
+@media screen and (max-width: 1200px) {
+  #hero .left-side {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #hero .left-side h2 {
+    font-size: 50px;
+  }
+  #hero {
+    padding-bottom: 100px;
+  }
+}
 @media screen and (max-width: 576px) {
   .footer .social-medias, .footer .pages, .footer .services, .footer .contact {
     --bs-gutter-x: 50% !important;
+  }
+  #hero .left-side h2 {
+    font-size: 40px;
+  }
+  #hero .left-side * {
+    text-align: center !important;
+  }
+  #hero .left-side .my-name {
+    margin: 0 30%;
   }
 }/*# sourceMappingURL=main.css.map */
