@@ -1,0 +1,54 @@
+footer{
+    padding-bottom: 50px;
+
+    .footer{
+        margin-top: 110px;
+        
+        h5{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: $c5;
+            margin-bottom: 28px;
+        }
+
+        a{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #787878;
+            margin-top: 10px;
+            display: inline-block;
+
+            &:hover{
+                color: black;
+                font-weight: 500;
+            }
+        }
+
+        .social-medias{
+
+            .lorem{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #757575;
+            }
+           
+            .contact-me{
+                margin-top: 50px;
+                
+                .github-icon{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+}

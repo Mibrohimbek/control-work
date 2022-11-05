@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
   </head>
   <body>
-    <!-- <div class="loader-bg"></div> -->
+    <div id="preloader">
+    </div>
+
     <!-- header begun -->
     <header class="sticky-top" id="navbar">
       <div class="container-sm">
@@ -45,8 +46,8 @@
             >
               <div class="offcanvas-header px-sm-5">
                 <div class="d-flex gap-2">
-                  <a href="#" class="offcanvas-title" id="offcanvasNavbarLabel">
-                    <img src="./images/logo.png" alt="logo" />
+                  <a href="#" class="offcanvas-title ms-4" id="offcanvasNavbarLabel">
+                    <img src="./images/header-logo.png" alt="logo" />
                   </a>
                   <a class="fw-bold text-white navbar-brand" href="#"></a>
                 </div>
@@ -278,7 +279,7 @@
         </div>
         </div>
       </section>
-      <!-- my-portfolio section begun -->
+      <!-- my-portfolio section finished -->
 
       <!-- <section id="experiance">
         <div class="container">
@@ -317,6 +318,65 @@
           </div>
         </div>
       </section> -->
+      
+      <!-- my-blog section begun -->
+      <section id="my-blog">
+        <div data-aos="fade-up"
+          data-aos-duration="3000">
+          <div class="container carousel-container">
+            <div class="row">
+              <div class="left-side mb-5 col-xxl-6">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/myblog-image.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/myblog-2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/myblog-3.webp" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <h3>How This Agency Helped My <br>
+                  Business And Career Journey?</h3>
+                <p class="important-words">A successful marketing plan relies heavily on the pulling-power of advertising <br>copy. writing result-oriented ad copy is dificult, as it must appeal to, entice, <br>
+                and onviced consumers tp action.</p>
+                <div class="d-flex gap-5 mt-4">
+                  <div>
+                    <a href="#" class="btn-myblog ps-0">Published in</a>
+                    <a href="#" class="btn-myblog ps-0">Marketing</a>
+                    <a href="#" class="btn-myblog ps-0">Category</a>
+                  </div>
+                  <div>
+                    <a class="date" href="#">05 jun, 2021</a>
+                  </div>
+                </div>
+              </div>
+              <div class="right-side col-xxl-6">
+                <h2>My Blog <br>
+                  And News</h2>
+                <p class="text">If It’s abillboard ad, you’ll need a super <br>
+                  catchy headline due to the speed at <br>
+                  which people will pass.</p>
+                <a href="#" class="d-inline-block text-dark">Go To The Blog</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- my-blog section finished -->
+
     </main>
 
     <footer>
@@ -403,10 +463,37 @@
         $(".loader_bg").fadeToggle();
       }, 1500);
     </script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
       AOS.init();
+    </script>
+
+
+    <script>
+      var loader = document.getElementsById("preloader");
+
+      window.addEventListener("load", function(){
+        loader.style.display = "none";
+      })
+    </script>
+    
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+  
+      function scrollFunction() {
+        if (document.documentElement.scrollTop > 100) {
+          document.getElementById("navbar").classList.add("navbar-shrink");
+        } else {
+          document.getElementById("navbar").classList.remove("navbar-shrink");
+        }
+      }
     </script>
   </body>
 </html>

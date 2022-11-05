@@ -29,6 +29,7 @@ input:focus {
 .btn-c1 {
   color: $c4;
   padding: 16px 35px;
+
   &:hover {
     border-radius: 25px;
     background-color: $c2;
@@ -36,14 +37,20 @@ input:focus {
   }
 }
 
-// .btn-call {
-//   background-color: $c2;
-//   color: #fff;
-//   border-radius: 41px;
-//   width: 230px;
-//   height: 64px;
-//   &:hover {
-//     color: #fff;
-//     background-color: #535460;
-//   }
-// }
+.btn-myblog {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: rgba(117, 117, 117, 1);
+  padding: 12px 26px;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: rgba(255, 248, 235, 1);
+    border-radius: 30px;
+    color: rgba(255, 168, 0, 1);
+    padding-left: 26px !important;
+  }
+}
