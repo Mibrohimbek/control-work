@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 @import "../abstracts/mixin";
 @import "../abstracts/variables";
 
@@ -7,6 +5,16 @@
 
 @import "../layout/header";
 @import "../layout/footer";
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Schoolbell';
+    src: url(../../fonts/Schoolbell/Schoolbell-Regular.ttf);
+}
 
 .loader-bg{
     position: fixed;
@@ -58,11 +66,12 @@
 }
 
 #hero{
-    background-color:#033648;
+    background-image: url('../../images/back-image.png');
+
     padding-bottom: 320px;
     
     .left-side{
-        margin-top: 150px;
+        margin-top: 100px;
 
         .my-name{
             background-color: rgba(9, 69, 86, 1);
@@ -227,7 +236,7 @@
 }
 
 #my-portfolio{
-    padding-top: 200px;
+    padding-bottom: 200px;
 
     h2:first-child{
         font-family: 'Inter';
@@ -253,6 +262,18 @@
 
         .card{
             border: none !important;
+
+            div:hover{
+                a{
+                    color: rgba(255, 168, 0, 1);
+                }
+                .next-yellow{
+                    display: inline-block !important;
+                }
+                .next-green{
+                    display: none;
+                }
+            }
             
             h3{
                 font-family: 'Inter';
@@ -274,9 +295,27 @@
                 color: #757575;
             }
 
-            .yellow-strelka{
-                width: 5% !important;
+            .next-green{
+                width: 15px !important;
                 height: 15px !important;
+                margin-left: 15px;
+                margin-top: 5px;
+            }
+
+            .next-yellow{
+                width: 15px !important;
+                height: 15px !important;
+                margin-left: 15px;
+                margin-top: 5px;
+            }
+
+            a{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 26px;
+                color: $c5;
             }
         }
     }

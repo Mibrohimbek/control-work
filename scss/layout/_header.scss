@@ -1,8 +1,8 @@
 header{
     padding: 1rem 0;
     transition: 0.5s;
-    background: #000 !important;
     z-index: 100000 !important;
+    background-image: url('../../images/back-image.png');
 
     & #offcanvasNavbar {
         background-color: $c1;
@@ -47,14 +47,15 @@ header{
 
     & .btn {
         &__call {
-            background: $call-btn !important;
+            background: $c1 !important;
             border: none;
             border-radius: 25px;
             transition: 0.009s;
 
             &:hover {
-                background-color: transparent !important;
-                border: 1px solid $call-btn;
+                background-color: white !important;
+                border: 1px solid $c1;
+                color: gray !important;
             }
         }
      }

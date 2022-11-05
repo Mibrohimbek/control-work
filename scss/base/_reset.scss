@@ -29,7 +29,6 @@ input:focus {
 .btn-c1 {
   color: $c4;
   padding: 16px 35px;
-  background-color: $c1;
   &:hover {
     border-radius: 25px;
     background-color: $c2;
@@ -37,14 +36,14 @@ input:focus {
   }
 }
 
-.btn-c2 {
-  background-color: $c2;
-  color: #fff;
-  border-radius: 41px;
-  width: 230px;
-  height: 64px;
-  &:hover {
-    color: #fff;
-    background-color: #535460;
-  }
-}
+// .btn-call {
+//   background-color: $c2;
+//   color: #fff;
+//   border-radius: 41px;
+//   width: 230px;
+//   height: 64px;
+//   &:hover {
+//     color: #fff;
+//     background-color: #535460;
+//   }
+// }

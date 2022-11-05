@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +27,6 @@ input:focus {
 .btn-c1 {
   color: #849499;
   padding: 16px 35px;
-  background-color: #033648;
 }
 .btn-c1:hover {
   border-radius: 25px;
@@ -37,24 +34,141 @@ input:focus {
   color: white;
 }
 
-.btn-c2 {
-  background-color: rgb(255, 166, 58);
-  color: #fff;
-  border-radius: 41px;
-  width: 230px;
-  height: 64px;
+header {
+  padding: 1rem 0;
+  transition: 0.5s;
+  z-index: 100000 !important;
+  background-image: url("../../images/back-image.png");
 }
-.btn-c2:hover {
-  color: #fff;
-  background-color: #535460;
+header #offcanvasNavbar {
+  background-color: #033648;
+}
+@media screen and (max-width: 990.999px) {
+  header #offcanvasNavbar .offcanvas-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 610px) {
+  header #offcanvasNavbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+header .nav__link {
+  font-size: 17px;
+}
+header .nav__link:hover {
+  text-decoration: underline;
+  color: white !important;
+}
+@media screen and (max-width: 990.999px) {
+  header .nav__link {
+    font-size: 21px;
+  }
+}
+header .active {
+  color: white !important;
+  background: transparent !important;
+  text-decoration: underline;
+}
+header .btn__call {
+  background: #033648 !important;
+  border: none;
+  border-radius: 25px;
+  transition: 0.009s;
+}
+header .btn__call:hover {
+  background-color: white !important;
+  border: 1px solid #033648;
+  color: gray !important;
 }
 
+.navbar-shrink {
+  background-color: #0a475a;
+  box-shadow: 0 0 8px #086e8d;
+  padding: 5px !important;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+  font-family: "Schoolbell";
+  src: url(../../fonts/Schoolbell/Schoolbell-Regular.ttf);
+}
+.loader-bg {
+  position: fixed;
+  z-index: 999999;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  border: 0 solid transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50vh - 75px);
+  left: calc(50vw - 75px);
+}
+
+.loader:before, .loader:after {
+  content: "";
+  border: 1em solid #ff5733;
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: loader 2s linear infinite;
+          animation: loader 2s linear infinite;
+  opacity: 0;
+}
+
+.loader::before {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes loader {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
 #hero {
-  background-color: #033648;
+  background-image: url("../../images/back-image.png");
   padding-bottom: 320px;
 }
 #hero .left-side {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 #hero .left-side .my-name {
   background-color: rgb(9, 69, 86);
@@ -86,6 +200,7 @@ input:focus {
 #hero .left-side .hire-me {
   margin-top: 50px;
 }
+
 #services {
   margin-bottom: 200px;
 }
@@ -148,7 +263,6 @@ input:focus {
 }
 #services .service .box-dad {
   margin-top: 70px;
-  --bs-gutter-y:1.5rem !important;
 }
 #services .service .box-dad .box:nth-child(2) img {
   width: 30px;
@@ -192,6 +306,9 @@ input:focus {
   color: rgb(105, 105, 105);
 }
 
+#my-portfolio {
+  padding-bottom: 200px;
+}
 #my-portfolio h2:first-child {
   font-family: "Inter";
   font-style: normal;
@@ -213,6 +330,15 @@ input:focus {
 #my-portfolio .card-dad .card {
   border: none !important;
 }
+#my-portfolio .card-dad .card div:hover a {
+  color: rgb(255, 168, 0);
+}
+#my-portfolio .card-dad .card div:hover .next-yellow {
+  display: inline-block !important;
+}
+#my-portfolio .card-dad .card div:hover .next-green {
+  display: none;
+}
 #my-portfolio .card-dad .card h3 {
   font-family: "Inter";
   font-style: normal;
@@ -230,6 +356,26 @@ input:focus {
   font-size: 16px;
   line-height: 26px;
   color: #757575;
+}
+#my-portfolio .card-dad .card .next-green {
+  width: 15px !important;
+  height: 15px !important;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+#my-portfolio .card-dad .card .next-yellow {
+  width: 15px !important;
+  height: 15px !important;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+#my-portfolio .card-dad .card a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(8, 84, 108);
 }
 
 footer {
