@@ -497,6 +497,9 @@ footer .footer .social-medias .contact-me .github-icon {
 #my-blog .carousel-control-next-icon {
   background-image: url("../../images/right.svg");
 }
+#my-blog .right-side {
+  padding-left: 25px;
+}
 #my-blog .right-side h2 {
   font-family: "Inter";
   font-style: normal;
@@ -530,14 +533,14 @@ footer .footer .social-medias .contact-me .github-icon {
   #hero .left-side {
     margin-top: 100px;
   }
-  .carousel-control-next,
-.carousel-control-prev {
+  #my-blog .carousel-control-next,
+#my-blog .carousel-control-prev {
     position: absolute !important;
     margin-left: 0 !important;
     background-color: white !important;
-    left: 30% !important;
+    left: 50% !important;
   }
-  .carousel-control-next {
+  #my-blog .carousel-control-next {
     left: 60% !important;
   }
   #experiance .right-side .carousel-control-prev,
@@ -579,5 +582,16 @@ footer .footer .social-medias .contact-me .github-icon {
   #services .service .box-dad .box > * img {
     margin-left: auto !important;
     margin-right: auto !important;
+  }
+  #my-blog .carousel-control-next,
+#my-blog .carousel-control-prev {
+    top: 450px !important;
+    left: 30% !important;
+  }
+  #my-blog .carousel-control-next {
+    left: 50% !important;
+  }
+  #my-blog .right-side {
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=main.css.map */

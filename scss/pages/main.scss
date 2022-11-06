@@ -408,6 +408,8 @@
 
 
     .right-side {
+        padding-left: 25px;
+        
         h2 {
             font-family: 'Inter';
             font-style: normal;
@@ -448,17 +450,20 @@
         margin-top: 100px;
     }
 
-    .carousel-control-next,
-    .carousel-control-prev {
-        position: absolute !important;
-        margin-left: 0 !important;
-        background-color: white !important;
-        left: 30% !important;
+    #my-blog{
+        .carousel-control-next,
+        .carousel-control-prev {
+            position: absolute !important;
+            margin-left: 0 !important;
+            background-color: white !important;
+            left: 50% !important;
+        }
+    
+        .carousel-control-next {
+            left: 60% !important;
+        }
     }
 
-    .carousel-control-next {
-        left: 60% !important;
-    }
 
     #experiance .right-side .carousel-control-prev,
     #experiance .right-side .carousel-control-next {
@@ -512,6 +517,19 @@
         img {
             margin-left: auto !important;
             margin-right: auto !important;
+        }
+    }
+    #my-blog{
+        .carousel-control-next,
+        .carousel-control-prev {
+            top: 450px !important;
+            left: 30% !important;
+        }
+        .carousel-control-next{
+            left: 50% !important;
+        }
+        .right-side{
+            margin-top: 40px;
         }
     }
 }
