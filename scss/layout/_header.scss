@@ -7,7 +7,7 @@ header{
     & #offcanvasNavbar {
         background-color: $c1;
 
-        @media screen and (max-width:990.999px) {
+        @media screen and (max-width:990px) {
             .offcanvas-header {
                 display: flex;
                 justify-content: space-between;
@@ -32,7 +32,7 @@ header{
             }
         }
 
-        @media screen and(max-width:990.999px) {
+        @media screen and(max-width:990px) {
             &__link {
                 font-size: 21px;
             }

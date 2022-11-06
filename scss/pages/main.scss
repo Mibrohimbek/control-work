@@ -89,7 +89,7 @@
 
     .statistic {
         margin-top: 70px;
-
+        justify-content: space-between;
         .achievment {
 
             .number {
@@ -547,11 +547,11 @@
 
     #experiance{
         .carousel-control-next {
-            left: calc(15% + 100px) !important;
+            left: calc(15% + 120px) !important;
         }
 
         .carousel-control-prev {
-            left: calc(10% + 50px) !important;
+            left: calc(10% + 60px) !important;
         }
         .carousel-control-prev,
         .carousel-control-next{
@@ -559,14 +559,3 @@
         }
     }
 }
-
-
-
-// #preloader{
-//     background-color: #000 url(../../images/circle-loader-gif.gif) no-repeat center;
-//     height: 100vh;
-//     background-size: 15%;
-//     width: 100%;
-//     position: fixed;
-//     z-index: 100;
-// }

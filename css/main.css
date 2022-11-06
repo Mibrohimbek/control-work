@@ -60,7 +60,7 @@ header {
 header #offcanvasNavbar {
   background-color: #033648;
 }
-@media screen and (max-width: 990.999px) {
+@media screen and (max-width: 990px) {
   header #offcanvasNavbar .offcanvas-header {
     display: flex;
     justify-content: space-between;
@@ -80,7 +80,7 @@ header .nav__link:hover {
   text-decoration: underline;
   color: white !important;
 }
-@media screen and (max-width: 990.999px) {
+@media screen and (max-width: 990px) {
   header .nav__link {
     font-size: 21px;
   }
@@ -230,6 +230,7 @@ footer .footer .social-medias .contact-me .github-icon {
 }
 #service .statistic {
   margin-top: 70px;
+  justify-content: space-between;
 }
 #service .statistic .achievment .number {
   font-family: "Inter";
@@ -600,10 +601,10 @@ footer .footer .social-medias .contact-me .github-icon {
     margin-top: 40px;
   }
   #experiance .carousel-control-next {
-    left: calc(15% + 100px) !important;
+    left: calc(15% + 120px) !important;
   }
   #experiance .carousel-control-prev {
-    left: calc(10% + 50px) !important;
+    left: calc(10% + 60px) !important;
   }
   #experiance .carousel-control-prev,
 #experiance .carousel-control-next {

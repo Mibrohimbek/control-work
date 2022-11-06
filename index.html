@@ -13,9 +13,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="preloader"></div>
-
-    <!-- header begun -->
+    <!-- header -->
     <header class="sticky-top" id="navbar">
       <div class="container-sm">
         <nav
@@ -67,14 +65,14 @@
               <ul class="gap-4 nav nav-pills px-sm-2">
                 <li class="nav__item">
                   <a
-                    class="nav__link active text-white-50"
+                    class="nav__link text-white-50"
                     aria-current="page"
-                    href="#home"
+                    href="#"
                     >Home</a
                   >
                 </li>
                 <li class="nav__item">
-                  <a class="nav__link text-white-50" href="#about">About</a>
+                  <a class="nav__link text-white-50" href="#hero">About</a>
                 </li>
                 <li class="nav__item">
                   <a class="nav__link text-white-50" href="#service">Service</a>
@@ -106,7 +104,7 @@
     <!-- header finished -->
 
     <main>
-      <!-- hero section begun -->
+      <!-- hero section -->
       <section id="hero">
         <div data-aos="flip-left">
           <div class="container">
@@ -141,15 +139,15 @@
       </section>
       <!-- hero section finished -->
 
-      <!-- service section begun -->
+      <!-- service section -->
       <section id="service" class="position-relative">
         <div data-aos="zoom-in"></div>
         <div class="container">
           <div class="d-flex">
-            <div class="dad-statistic me-auto ms-auto d-none d-lg-block">
+            <div class="dad-statistic w-100 d-none d-lg-block">
               <div data-aos="zoom-in">
                 <p>STATISTIC</p>
-                <div class="statistic d-flex gap-5">
+                <div class="statistic d-flex">
                   <div class="achievment">
                     <p class="number">300+</p>
                     <p class="success">Project Delivery</p>
@@ -233,7 +231,7 @@
       </section>
       <!-- service section finished -->
 
-      <!-- portfolio section begun -->
+      <!-- portfolio section -->
       <section id="portfolio">
         <div data-aos="zoom-in-up">
           <div class="container">
@@ -361,9 +359,9 @@
       </section>
       <!-- portfolio section finished -->
 
-      <!-- experiance section begun -->
+      <!-- experiance section -->
       <section id="experiance">
-        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <div data-aos="fade-up" data-aos-duration="3000">
           <div class="container">
             <div class="experiance-dad row">
               <div class="left-side col-lg-6 col-xl-6 col-xxl-6">
@@ -447,7 +445,7 @@
       </section>
       <!-- experiance section finished -->
 
-      <!-- blog section begun -->
+      <!-- blog section -->
       <section id="blog">
         <div data-aos="fade-up" data-aos-duration="3000">
           <div class="container carousel-container">
@@ -580,6 +578,7 @@
       <!-- blog section finished -->
     </main>
 
+    <!-- footer -->
     <footer>
       <hr />
       <div class="container">
@@ -620,20 +619,20 @@
           <div class="pages col-sm-4 col-md-3 col-lg-2 col-xl-2 col-xxl-2 mb-5">
             <h5>Pages</h5>
             <a href="#">Home</a><br />
-            <a href="#">About</a><br />
-            <a href="#">Service</a><br />
-            <a href="#">Portfolio</a><br />
-            <a href="#">Blog</a><br />
+            <a href="#hero">About</a><br />
+            <a href="#service">Service</a><br />
+            <a href="#portfolio">Portfolio</a><br />
+            <a href="#blog">Blog</a><br />
           </div>
           <div
             class="service col-sm-8 col-md-3 col-lg-2 col-xl-2 col-xxl-2 mb-5"
           >
             <h5>Services</h5>
-            <a href="#">Web Design</a> <br />
-            <a href="#">App Design</a><br />
-            <a href="#">Dashboard</a><br />
-            <a href="#">Illustration</a><br />
-            <a href="#">Development</a><br />
+            <a href="#portfolio">Web Design</a> <br />
+            <a href="#portfolio">App Design</a><br />
+            <a href="#portfolio">Dashboard</a><br />
+            <a href="#portfolio">Illustration</a><br />
+            <a href="#portfolio">Development</a><br />
           </div>
           <div
             class="contact col-sm-4 col-md-12 col-lg-3 col-lg-3 col-xl-3 col-xxl-3 mb-5"
@@ -657,7 +656,9 @@
         </div>
       </div>
     </footer>
+    <!-- footer finished -->
 
+    <!-- java script -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -688,5 +689,6 @@
         }
       }
     </script>
+    <!-- java script finished -->
   </body>
 </html>
