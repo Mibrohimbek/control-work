@@ -16,15 +16,15 @@
     src: url(../../fonts/Schoolbell/Schoolbell-Regular.ttf);
 }
 
-#hero{
+#hero {
     background-image: url('../../images/back-image.png');
 
     padding-bottom: 320px;
-    
-    .left-side{
+
+    .left-side {
         margin-top: 100px;
 
-        .my-name{
+        .my-name {
             background-color: rgba(9, 69, 86, 1);
             padding: 16px 30px;
             border-radius: 30px;
@@ -35,7 +35,7 @@
             line-height: 33px;
         }
 
-        h2{
+        h2 {
             font-family: 'Inter';
             font-style: normal;
             font-weight: 700;
@@ -44,7 +44,7 @@
             margin-top: 40px;
         }
 
-        .product{
+        .product {
             margin-top: 30px;
             font-family: 'Inter';
             font-style: normal;
@@ -54,30 +54,30 @@
             color: #849499;
         }
 
-        .hire-me{
+        .hire-me {
             margin-top: 50px;
         }
     }
 
-    .right-side{
-        
-        img{
+    .right-side {
+
+        img {
             margin-left: -6% !important;
         }
     }
 }
 
-#services{
+#services {
     margin-bottom: 200px;
-    
-    .dad-statistic{
+
+    .dad-statistic {
         background-color: #fff;
         padding: 78px 150px;
         box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
         border-radius: 30px;
         margin-top: -150px;
 
-        p:first-child{
+        p:first-child {
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -86,13 +86,13 @@
             color: rgba(38, 90, 106, 1);
         }
     }
-    
-    .statistic{
+
+    .statistic {
         margin-top: 70px;
 
-        .achievment{
+        .achievment {
 
-            .number{
+            .number {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -101,7 +101,7 @@
                 color: $c5;
             }
 
-            .success{
+            .success {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 400;
@@ -113,10 +113,10 @@
         }
     }
 
-    .service{
+    .service {
         margin-top: 200px;
 
-        .sec-name{
+        .sec-name {
             font-family: 'Schoolbell';
             font-style: normal;
             font-weight: 400;
@@ -126,7 +126,7 @@
             color: #265A6A;
         }
 
-        p:nth-child(2){
+        p:nth-child(2) {
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -136,40 +136,40 @@
             margin-top: 30px;
         }
 
-        .box-dad{
+        .box-dad {
             margin-top: 70px;
 
-            .box:nth-child(2){
-                
-                img{
+            .box:nth-child(2) {
+
+                img {
                     width: 30px;
                     height: 30px;
                 }
             }
 
-            .box{
+            .box {
                 background-image: url('../../images/green-circle.png');
                 background-repeat: no-repeat;
                 background-position: 19px 20px;
                 padding: 30px;
                 box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
 
-                &:hover{
+                &:hover {
                     background-color: $c5;
                     background-image: url('../../images/yellow-circle.png');
                     background-repeat: no-repeat;
                     background-position: 19px 20px;
 
-                    p{
+                    p {
                         color: rgba(178, 187, 189, 1);
                     }
 
-                    h4{
+                    h4 {
                         color: white !important;
                     }
                 }
 
-                h4{
+                h4 {
                     font-family: 'Inter';
                     font-style: normal;
                     font-weight: 600;
@@ -179,7 +179,7 @@
                     margin-top: 45px;
                 }
 
-                p{
+                p {
                     font-family: 'Inter';
                     font-style: normal;
                     font-weight: 400;
@@ -193,14 +193,15 @@
     }
 }
 
-#experiance{
+#experiance {
     background-image: url('../../images/back-image.png');
     padding: 100px 0;
     margin-bottom: 200px;
 
-    .right-side{
+    .right-side {
         margin-top: 90px;
-        .text{
+
+        .text {
             font-family: 'Inter';
             font-style: normal;
             font-weight: 500;
@@ -210,7 +211,7 @@
             margin-top: 40px;
         }
 
-        .dev-name{
+        .dev-name {
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
@@ -219,8 +220,9 @@
             color: #AABFC6;
             margin-top: 20px;
         }
+
         .carousel-control-next,
-        .carousel-control-prev{
+        .carousel-control-prev {
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -228,21 +230,21 @@
             margin-left: -430px;
             margin-top: 260px;
         }
-    
-        .carousel-control-next{
+
+        .carousel-control-next {
             left: calc(50% + 200px);
         }
-    
-        .carousel-control-prev{
+
+        .carousel-control-prev {
             left: calc(50% + 100px);
         }
     }
 }
 
-#my-portfolio{
+#my-portfolio {
     padding-bottom: 200px;
 
-    h2:first-child{
+    h2:first-child {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
@@ -251,7 +253,7 @@
         color: $c5;
     }
 
-    .description{
+    .description {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
@@ -262,24 +264,26 @@
         margin-bottom: 60px;
     }
 
-    .card-dad{
+    .card-dad {
 
-        .card{
+        .card {
             border: none !important;
 
-            div:hover{
-                a{
+            div:hover {
+                a {
                     color: rgba(255, 168, 0, 1);
                 }
-                .next-yellow{
+
+                .next-yellow {
                     display: inline-block !important;
                 }
-                .next-green{
+
+                .next-green {
                     display: none;
                 }
             }
-            
-            h3{
+
+            h3 {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
@@ -289,7 +293,7 @@
                 color: $c5;
             }
 
-            p{
+            p {
                 margin-top: 10px;
                 font-family: 'Inter';
                 font-style: normal;
@@ -299,21 +303,21 @@
                 color: #757575;
             }
 
-            .next-green{
+            .next-green {
                 width: 15px !important;
                 height: 15px !important;
                 margin-left: 15px;
                 margin-top: 5px;
             }
 
-            .next-yellow{
+            .next-yellow {
                 width: 15px !important;
                 height: 15px !important;
                 margin-left: 15px;
                 margin-top: 5px;
             }
 
-            a{
+            a {
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 500;
@@ -325,88 +329,86 @@
     }
 }
 
-#my-blog{
+#my-blog {
     padding-bottom: 100px;
 
-    .left-side{
-        
-        h3{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 600;
-            font-size: 35px;
-            line-height: 45px;
-            color: $c5;
-            margin-top: 40px;
-        }
-    
-        .important-words{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 27px;
-            color: #757575;
-            margin-top: 20px;
-        }
-    
-        .carousel-container{
-            padding: 0;
-        }
-    
-        .date{
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 25px;
-            color: #757575 !important;
-        }
-    
-        .carousel-item img{
-            height: 500px !important;
-            object-fit: cover;
-        }
-    
-        .carousel-control-next,
-        .carousel-control-prev{
-            top: auto;
-            bottom: auto;
-            bottom: 0;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            border: 1px solid orange;
-            padding: 10px;
-            margin-left: 260px;
-    
-            &:hover{
-                background-color: orange;
-            }
-
-            .carousel-control-prev:hover{
-                background-color: orange;
-            }
-        }
-    
-        .carousel-control-next{
-            left: calc(50% + 200px);
-        }
-    
-        .carousel-control-prev{
-            left: calc(50% + 100px);
-        }
-        .carousel-control-prev-icon{
-            background-image: url('../../images/let.svg');
-        }
-        .carousel-control-next-icon{
-            background-image: url('../../images/right.svg');
-        }
+    h3 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 45px;
+        color: $c5;
+        margin-top: 40px;
     }
 
-    
-    .right-side{
-        h2{
+    .important-words {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #757575;
+        margin-top: 20px;
+    }
+
+    .carousel-container {
+        padding: 0;
+    }
+
+    .date {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: #757575 !important;
+    }
+
+    .carousel-item img {
+        height: 500px !important;
+        object-fit: cover;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: auto;
+        bottom: auto;
+        bottom: 0;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 1px solid orange;
+        padding: 10px;
+        // margin-left: 260px;
+
+        &:hover {
+            background-color: orange;
+        }
+
+        .carousel-control-prev:hover {
+            background-color: orange;
+        }
+    }
+    .carousel-control-next {
+        left: calc(45% + 200px);
+    }
+
+    .carousel-control-prev {
+        left: calc(45% + 100px);
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url('../../images/let.svg');
+    }
+
+    .carousel-control-next-icon {
+        background-image: url('../../images/right.svg');
+    }
+
+
+    .right-side {
+        h2 {
             font-family: 'Inter';
             font-style: normal;
             font-weight: 600;
@@ -415,7 +417,7 @@
             color: $c5;
         }
 
-        .text{
+        .text {
             margin-top: 20px;
             font-family: 'Inter';
             font-style: normal;
@@ -423,15 +425,17 @@
             font-size: 18px;
             line-height: 29px;
             color: #757575;
-            
+
         }
 
-        a{
+        a {
             margin-top: 30px;
             border: 1px solid orange;
             border-radius: 30px;
             padding: 16px 30px;
-            &:hover{
+            color: orange !important;
+
+            &:hover {
                 background-color: rgba(255, 166, 58, 1);
                 color: white !important;
             }
@@ -439,78 +443,76 @@
     }
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1200px) {
     #hero .left-side {
         margin-top: 100px;
     }
+
     .carousel-control-next,
-    .carousel-control-prev{
+    .carousel-control-prev {
         position: absolute !important;
         margin-left: 0 !important;
         background-color: white !important;
         left: 30% !important;
     }
-    .carousel-control-next{
+
+    .carousel-control-next {
         left: 60% !important;
     }
-    #experiance .right-side .carousel-control-prev,#experiance .right-side .carousel-control-next{
+
+    #experiance .right-side .carousel-control-prev,
+    #experiance .right-side .carousel-control-next {
         background-color: black !important;
     }
-    
+
 }
 
 
 
-@media screen and (max-width:768px){
-    #hero .left-side h2{
+@media screen and (max-width:768px) {
+    #hero .left-side h2 {
         font-size: 50px;
     }
-    #hero{
+
+    #hero {
         padding-bottom: 100px;
     }
 }
 
 
-@media screen and (max-width:576px){
-    .footer{
-        .social-medias,.pages,.services,.contact{
-            --bs-gutter-x: 50% !important;
-        }
-    }
-    #hero .left-side h2{
+@media screen and (max-width:576px) {
+    #hero .left-side h2 {
         font-size: 40px;
     }
-    #hero .left-side *{
+
+    #hero .left-side * {
         text-align: center !important;
     }
-    #hero .left-side .my-name{
+
+    #hero .left-side .my-name {
         margin: 0 30%;
     }
 
-    #services .service .box-dad .box{
+    #services .service .box-dad .box {
         background-position: 50% 20px;
 
-        &:hover{
+        &:hover {
             background-position: 50% 20px !important;
         }
 
     }
 
-    #services .service .box-dad .box > *{
+    #services .service .box-dad .box>* {
         text-align: center;
         display: flex;
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
 
-        img{
+        img {
             margin-left: auto !important;
             margin-right: auto !important;
         }
-    }
-    
-    #experiance .right-side .carousel-control-prev,#experiance .right-side .carousel-control-next{
-        margin-top: 400px !important;
     }
 }
 

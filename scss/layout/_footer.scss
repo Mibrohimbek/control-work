@@ -52,3 +52,16 @@ footer{
         }
     }
 }
+
+
+@media screen and (max-width:576px) {
+    .footer {
+
+        .social-medias,
+        .pages,
+        .services,
+        .contact {
+            --bs-gutter-x: 50% !important;
+        }
+    }
+}

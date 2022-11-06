@@ -24,11 +24,11 @@ input:focus {
   line-height: 32px;
 }
 
-.btn-c1 {
+.btn-a1 {
   color: #849499;
-  padding: 16px 35px;
+  padding: 16px 50px;
 }
-.btn-c1:hover {
+.btn-a1:hover {
   border-radius: 25px;
   background-color: rgb(255, 166, 58);
   color: white;
@@ -153,6 +153,14 @@ footer .footer .social-medias .contact-me .github-icon {
   height: 35px;
 }
 
+@media screen and (max-width: 576px) {
+  .footer .social-medias,
+.footer .pages,
+.footer .services,
+.footer .contact {
+    --bs-gutter-x: 50% !important;
+  }
+}
 @font-face {
   font-family: "Inter";
   src: url(../../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
@@ -424,7 +432,7 @@ footer .footer .social-medias .contact-me .github-icon {
 #my-blog {
   padding-bottom: 100px;
 }
-#my-blog .left-side h3 {
+#my-blog h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -433,7 +441,7 @@ footer .footer .social-medias .contact-me .github-icon {
   color: rgb(8, 84, 108);
   margin-top: 40px;
 }
-#my-blog .left-side .important-words {
+#my-blog .important-words {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -442,10 +450,10 @@ footer .footer .social-medias .contact-me .github-icon {
   color: #757575;
   margin-top: 20px;
 }
-#my-blog .left-side .carousel-container {
+#my-blog .carousel-container {
   padding: 0;
 }
-#my-blog .left-side .date {
+#my-blog .date {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -453,13 +461,13 @@ footer .footer .social-medias .contact-me .github-icon {
   line-height: 25px;
   color: #757575 !important;
 }
-#my-blog .left-side .carousel-item img {
+#my-blog .carousel-item img {
   height: 500px !important;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#my-blog .left-side .carousel-control-next,
-#my-blog .left-side .carousel-control-prev {
+#my-blog .carousel-control-next,
+#my-blog .carousel-control-prev {
   top: auto;
   bottom: auto;
   bottom: 0;
@@ -468,26 +476,25 @@ footer .footer .social-medias .contact-me .github-icon {
   border-radius: 50%;
   border: 1px solid orange;
   padding: 10px;
-  margin-left: 260px;
 }
-#my-blog .left-side .carousel-control-next:hover,
-#my-blog .left-side .carousel-control-prev:hover {
+#my-blog .carousel-control-next:hover,
+#my-blog .carousel-control-prev:hover {
   background-color: orange;
 }
-#my-blog .left-side .carousel-control-next .carousel-control-prev:hover,
-#my-blog .left-side .carousel-control-prev .carousel-control-prev:hover {
+#my-blog .carousel-control-next .carousel-control-prev:hover,
+#my-blog .carousel-control-prev .carousel-control-prev:hover {
   background-color: orange;
 }
-#my-blog .left-side .carousel-control-next {
-  left: calc(50% + 200px);
+#my-blog .carousel-control-next {
+  left: calc(45% + 200px);
 }
-#my-blog .left-side .carousel-control-prev {
-  left: calc(50% + 100px);
+#my-blog .carousel-control-prev {
+  left: calc(45% + 100px);
 }
-#my-blog .left-side .carousel-control-prev-icon {
+#my-blog .carousel-control-prev-icon {
   background-image: url("../../images/let.svg");
 }
-#my-blog .left-side .carousel-control-next-icon {
+#my-blog .carousel-control-next-icon {
   background-image: url("../../images/right.svg");
 }
 #my-blog .right-side h2 {
@@ -512,6 +519,7 @@ footer .footer .social-medias .contact-me .github-icon {
   border: 1px solid orange;
   border-radius: 30px;
   padding: 16px 30px;
+  color: orange !important;
 }
 #my-blog .right-side a:hover {
   background-color: rgb(255, 166, 58);
@@ -532,7 +540,8 @@ footer .footer .social-medias .contact-me .github-icon {
   .carousel-control-next {
     left: 60% !important;
   }
-  #experiance .right-side .carousel-control-prev, #experiance .right-side .carousel-control-next {
+  #experiance .right-side .carousel-control-prev,
+#experiance .right-side .carousel-control-next {
     background-color: black !important;
   }
 }
@@ -545,9 +554,6 @@ footer .footer .social-medias .contact-me .github-icon {
   }
 }
 @media screen and (max-width: 576px) {
-  .footer .social-medias, .footer .pages, .footer .services, .footer .contact {
-    --bs-gutter-x: 50% !important;
-  }
   #hero .left-side h2 {
     font-size: 40px;
   }
@@ -573,8 +579,5 @@ footer .footer .social-medias .contact-me .github-icon {
   #services .service .box-dad .box > * img {
     margin-left: auto !important;
     margin-right: auto !important;
-  }
-  #experiance .right-side .carousel-control-prev, #experiance .right-side .carousel-control-next {
-    margin-top: 400px !important;
   }
 }/*# sourceMappingURL=main.css.map */
