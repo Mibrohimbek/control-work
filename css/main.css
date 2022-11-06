@@ -599,4 +599,14 @@ footer .footer .social-medias .contact-me .github-icon {
   #blog .right-side {
     margin-top: 40px;
   }
+  #experiance .carousel-control-next {
+    left: calc(15% + 100px) !important;
+  }
+  #experiance .carousel-control-prev {
+    left: calc(10% + 50px) !important;
+  }
+  #experiance .carousel-control-prev,
+#experiance .carousel-control-next {
+    margin-top: -50px !important;
+  }
 }/*# sourceMappingURL=main.css.map */

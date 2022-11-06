@@ -544,6 +544,20 @@
             margin-top: 40px;
         }
     }
+
+    #experiance{
+        .carousel-control-next {
+            left: calc(15% + 100px) !important;
+        }
+
+        .carousel-control-prev {
+            left: calc(10% + 50px) !important;
+        }
+        .carousel-control-prev,
+        .carousel-control-next{
+            margin-top: -50px !important;
+        }
+    }
 }
 
 
