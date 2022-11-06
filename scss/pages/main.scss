@@ -67,7 +67,7 @@
     }
 }
 
-#services {
+#service {
     margin-bottom: 200px;
 
     .dad-statistic {
@@ -227,21 +227,20 @@
             height: 50px;
             border-radius: 50%;
             padding: 10px;
-            margin-left: -430px;
             margin-top: 260px;
         }
 
         .carousel-control-next {
-            left: calc(50% + 200px);
+            left: calc(0% + 100px);
         }
 
         .carousel-control-prev {
-            left: calc(50% + 100px);
+            left: calc(0% + 00px);
         }
     }
 }
 
-#my-portfolio {
+#portfolio {
     padding-bottom: 200px;
 
     h2:first-child {
@@ -265,6 +264,7 @@
     }
 
     .card-dad {
+        --bs-gutter-x: 7rem !important;
 
         .card {
             border: none !important;
@@ -329,7 +329,7 @@
     }
 }
 
-#my-blog {
+#blog {
     padding-bottom: 100px;
 
     h3 {
@@ -390,6 +390,7 @@
             background-color: orange;
         }
     }
+
     .carousel-control-next {
         left: calc(45% + 200px);
     }
@@ -409,7 +410,7 @@
 
     .right-side {
         padding-left: 25px;
-        
+
         h2 {
             font-family: 'Inter';
             font-style: normal;
@@ -450,7 +451,8 @@
         margin-top: 100px;
     }
 
-    #my-blog{
+    #blog {
+
         .carousel-control-next,
         .carousel-control-prev {
             position: absolute !important;
@@ -458,7 +460,7 @@
             background-color: white !important;
             left: 50% !important;
         }
-    
+
         .carousel-control-next {
             left: 60% !important;
         }
@@ -482,6 +484,12 @@
     #hero {
         padding-bottom: 100px;
     }
+
+    #portfolio {
+        .card-dad {
+            --bs-gutter-x: 0 !important;
+        }
+    }
 }
 
 
@@ -498,7 +506,7 @@
         margin: 0 30%;
     }
 
-    #services .service .box-dad .box {
+    #service .service .box-dad .box {
         background-position: 50% 20px;
 
         &:hover {
@@ -507,7 +515,7 @@
 
     }
 
-    #services .service .box-dad .box>* {
+    #service .service .box-dad .box>* {
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -519,16 +527,20 @@
             margin-right: auto !important;
         }
     }
-    #my-blog{
+
+    #blog {
+
         .carousel-control-next,
         .carousel-control-prev {
             top: 450px !important;
             left: 30% !important;
         }
-        .carousel-control-next{
+
+        .carousel-control-next {
             left: 50% !important;
         }
-        .right-side{
+
+        .right-side {
             margin-top: 40px;
         }
     }

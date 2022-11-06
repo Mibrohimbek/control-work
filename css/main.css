@@ -156,7 +156,7 @@ footer .footer .social-medias .contact-me .github-icon {
 @media screen and (max-width: 576px) {
   .footer .social-medias,
 .footer .pages,
-.footer .services,
+.footer .service,
 .footer .contact {
     --bs-gutter-x: 50% !important;
   }
@@ -210,17 +210,17 @@ footer .footer .social-medias .contact-me .github-icon {
   margin-left: -6% !important;
 }
 
-#services {
+#service {
   margin-bottom: 200px;
 }
-#services .dad-statistic {
+#service .dad-statistic {
   background-color: #fff;
   padding: 78px 150px;
   box-shadow: 0px 73px 80px rgba(0, 0, 0, 0.06);
   border-radius: 30px;
   margin-top: -150px;
 }
-#services .dad-statistic p:first-child {
+#service .dad-statistic p:first-child {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -228,10 +228,10 @@ footer .footer .social-medias .contact-me .github-icon {
   line-height: 22px;
   color: rgb(38, 90, 106);
 }
-#services .statistic {
+#service .statistic {
   margin-top: 70px;
 }
-#services .statistic .achievment .number {
+#service .statistic .achievment .number {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -239,7 +239,7 @@ footer .footer .social-medias .contact-me .github-icon {
   line-height: 22px;
   color: rgb(8, 84, 108);
 }
-#services .statistic .achievment .success {
+#service .statistic .achievment .success {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -248,10 +248,10 @@ footer .footer .social-medias .contact-me .github-icon {
   color: rgb(8, 84, 108);
   margin-top: 30px;
 }
-#services .service {
+#service .service {
   margin-top: 200px;
 }
-#services .service .sec-name {
+#service .service .sec-name {
   font-family: "Schoolbell";
   font-style: normal;
   font-weight: 400;
@@ -261,7 +261,7 @@ footer .footer .social-medias .contact-me .github-icon {
           text-decoration-line: underline;
   color: #265A6A;
 }
-#services .service p:nth-child(2) {
+#service .service p:nth-child(2) {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -270,33 +270,33 @@ footer .footer .social-medias .contact-me .github-icon {
   color: rgb(8, 84, 108);
   margin-top: 30px;
 }
-#services .service .box-dad {
+#service .service .box-dad {
   margin-top: 70px;
 }
-#services .service .box-dad .box:nth-child(2) img {
+#service .service .box-dad .box:nth-child(2) img {
   width: 30px;
   height: 30px;
 }
-#services .service .box-dad .box {
+#service .service .box-dad .box {
   background-image: url("../../images/green-circle.png");
   background-repeat: no-repeat;
   background-position: 19px 20px;
   padding: 30px;
   box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
 }
-#services .service .box-dad .box:hover {
+#service .service .box-dad .box:hover {
   background-color: rgb(8, 84, 108);
   background-image: url("../../images/yellow-circle.png");
   background-repeat: no-repeat;
   background-position: 19px 20px;
 }
-#services .service .box-dad .box:hover p {
+#service .service .box-dad .box:hover p {
   color: rgb(178, 187, 189);
 }
-#services .service .box-dad .box:hover h4 {
+#service .service .box-dad .box:hover h4 {
   color: white !important;
 }
-#services .service .box-dad .box h4 {
+#service .service .box-dad .box h4 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -305,7 +305,7 @@ footer .footer .social-medias .contact-me .github-icon {
   color: #0F1221;
   margin-top: 45px;
 }
-#services .service .box-dad .box p {
+#service .service .box-dad .box p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -347,20 +347,19 @@ footer .footer .social-medias .contact-me .github-icon {
   height: 50px;
   border-radius: 50%;
   padding: 10px;
-  margin-left: -430px;
   margin-top: 260px;
 }
 #experiance .right-side .carousel-control-next {
-  left: calc(50% + 200px);
+  left: calc(0% + 100px);
 }
 #experiance .right-side .carousel-control-prev {
-  left: calc(50% + 100px);
+  left: calc(0% + 0px);
 }
 
-#my-portfolio {
+#portfolio {
   padding-bottom: 200px;
 }
-#my-portfolio h2:first-child {
+#portfolio h2:first-child {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -368,7 +367,7 @@ footer .footer .social-medias .contact-me .github-icon {
   line-height: 56px;
   color: rgb(8, 84, 108);
 }
-#my-portfolio .description {
+#portfolio .description {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -378,19 +377,22 @@ footer .footer .social-medias .contact-me .github-icon {
   margin-top: 10px;
   margin-bottom: 60px;
 }
-#my-portfolio .card-dad .card {
+#portfolio .card-dad {
+  --bs-gutter-x: 7rem !important;
+}
+#portfolio .card-dad .card {
   border: none !important;
 }
-#my-portfolio .card-dad .card div:hover a {
+#portfolio .card-dad .card div:hover a {
   color: rgb(255, 168, 0);
 }
-#my-portfolio .card-dad .card div:hover .next-yellow {
+#portfolio .card-dad .card div:hover .next-yellow {
   display: inline-block !important;
 }
-#my-portfolio .card-dad .card div:hover .next-green {
+#portfolio .card-dad .card div:hover .next-green {
   display: none;
 }
-#my-portfolio .card-dad .card h3 {
+#portfolio .card-dad .card h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -399,7 +401,7 @@ footer .footer .social-medias .contact-me .github-icon {
   margin-top: 40px;
   color: rgb(8, 84, 108);
 }
-#my-portfolio .card-dad .card p {
+#portfolio .card-dad .card p {
   margin-top: 10px;
   font-family: "Inter";
   font-style: normal;
@@ -408,19 +410,19 @@ footer .footer .social-medias .contact-me .github-icon {
   line-height: 26px;
   color: #757575;
 }
-#my-portfolio .card-dad .card .next-green {
+#portfolio .card-dad .card .next-green {
   width: 15px !important;
   height: 15px !important;
   margin-left: 15px;
   margin-top: 5px;
 }
-#my-portfolio .card-dad .card .next-yellow {
+#portfolio .card-dad .card .next-yellow {
   width: 15px !important;
   height: 15px !important;
   margin-left: 15px;
   margin-top: 5px;
 }
-#my-portfolio .card-dad .card a {
+#portfolio .card-dad .card a {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -429,10 +431,10 @@ footer .footer .social-medias .contact-me .github-icon {
   color: rgb(8, 84, 108);
 }
 
-#my-blog {
+#blog {
   padding-bottom: 100px;
 }
-#my-blog h3 {
+#blog h3 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -441,7 +443,7 @@ footer .footer .social-medias .contact-me .github-icon {
   color: rgb(8, 84, 108);
   margin-top: 40px;
 }
-#my-blog .important-words {
+#blog .important-words {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -450,10 +452,10 @@ footer .footer .social-medias .contact-me .github-icon {
   color: #757575;
   margin-top: 20px;
 }
-#my-blog .carousel-container {
+#blog .carousel-container {
   padding: 0;
 }
-#my-blog .date {
+#blog .date {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -461,13 +463,13 @@ footer .footer .social-medias .contact-me .github-icon {
   line-height: 25px;
   color: #757575 !important;
 }
-#my-blog .carousel-item img {
+#blog .carousel-item img {
   height: 500px !important;
   -o-object-fit: cover;
      object-fit: cover;
 }
-#my-blog .carousel-control-next,
-#my-blog .carousel-control-prev {
+#blog .carousel-control-next,
+#blog .carousel-control-prev {
   top: auto;
   bottom: auto;
   bottom: 0;
@@ -477,30 +479,30 @@ footer .footer .social-medias .contact-me .github-icon {
   border: 1px solid orange;
   padding: 10px;
 }
-#my-blog .carousel-control-next:hover,
-#my-blog .carousel-control-prev:hover {
+#blog .carousel-control-next:hover,
+#blog .carousel-control-prev:hover {
   background-color: orange;
 }
-#my-blog .carousel-control-next .carousel-control-prev:hover,
-#my-blog .carousel-control-prev .carousel-control-prev:hover {
+#blog .carousel-control-next .carousel-control-prev:hover,
+#blog .carousel-control-prev .carousel-control-prev:hover {
   background-color: orange;
 }
-#my-blog .carousel-control-next {
+#blog .carousel-control-next {
   left: calc(45% + 200px);
 }
-#my-blog .carousel-control-prev {
+#blog .carousel-control-prev {
   left: calc(45% + 100px);
 }
-#my-blog .carousel-control-prev-icon {
+#blog .carousel-control-prev-icon {
   background-image: url("../../images/let.svg");
 }
-#my-blog .carousel-control-next-icon {
+#blog .carousel-control-next-icon {
   background-image: url("../../images/right.svg");
 }
-#my-blog .right-side {
+#blog .right-side {
   padding-left: 25px;
 }
-#my-blog .right-side h2 {
+#blog .right-side h2 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -508,7 +510,7 @@ footer .footer .social-medias .contact-me .github-icon {
   line-height: 60px;
   color: rgb(8, 84, 108);
 }
-#my-blog .right-side .text {
+#blog .right-side .text {
   margin-top: 20px;
   font-family: "Inter";
   font-style: normal;
@@ -517,14 +519,14 @@ footer .footer .social-medias .contact-me .github-icon {
   line-height: 29px;
   color: #757575;
 }
-#my-blog .right-side a {
+#blog .right-side a {
   margin-top: 30px;
   border: 1px solid orange;
   border-radius: 30px;
   padding: 16px 30px;
   color: orange !important;
 }
-#my-blog .right-side a:hover {
+#blog .right-side a:hover {
   background-color: rgb(255, 166, 58);
   color: white !important;
 }
@@ -533,14 +535,14 @@ footer .footer .social-medias .contact-me .github-icon {
   #hero .left-side {
     margin-top: 100px;
   }
-  #my-blog .carousel-control-next,
-#my-blog .carousel-control-prev {
+  #blog .carousel-control-next,
+#blog .carousel-control-prev {
     position: absolute !important;
     margin-left: 0 !important;
     background-color: white !important;
     left: 50% !important;
   }
-  #my-blog .carousel-control-next {
+  #blog .carousel-control-next {
     left: 60% !important;
   }
   #experiance .right-side .carousel-control-prev,
@@ -555,6 +557,9 @@ footer .footer .social-medias .contact-me .github-icon {
   #hero {
     padding-bottom: 100px;
   }
+  #portfolio .card-dad {
+    --bs-gutter-x: 0 !important;
+  }
 }
 @media screen and (max-width: 576px) {
   #hero .left-side h2 {
@@ -566,32 +571,32 @@ footer .footer .social-medias .contact-me .github-icon {
   #hero .left-side .my-name {
     margin: 0 30%;
   }
-  #services .service .box-dad .box {
+  #service .service .box-dad .box {
     background-position: 50% 20px;
   }
-  #services .service .box-dad .box:hover {
+  #service .service .box-dad .box:hover {
     background-position: 50% 20px !important;
   }
-  #services .service .box-dad .box > * {
+  #service .service .box-dad .box > * {
     text-align: center;
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
   }
-  #services .service .box-dad .box > * img {
+  #service .service .box-dad .box > * img {
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  #my-blog .carousel-control-next,
-#my-blog .carousel-control-prev {
+  #blog .carousel-control-next,
+#blog .carousel-control-prev {
     top: 450px !important;
     left: 30% !important;
   }
-  #my-blog .carousel-control-next {
+  #blog .carousel-control-next {
     left: 50% !important;
   }
-  #my-blog .right-side {
+  #blog .right-side {
     margin-top: 40px;
   }
 }/*# sourceMappingURL=main.css.map */
