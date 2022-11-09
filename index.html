@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="icon" type="image/x-icon" href="./images/footer-logo.png">
+    <link rel="icon" type="image/x-icon" href="./images/footer-logo.png" />
     <link
       rel="stylesheet"
       href="./bootstrap-5.2.2-dist/css/bootstrap.min.css"
@@ -92,6 +92,7 @@
                 class="btn__call py-3 px-5 text-white d-block d-lg-none mt-4 w-75 d-flex justify-content-center fs-3"
                 >Contact</a
               >
+              <button  onclick="myFunction()" class="ms-5 rounded-4 px-4 pt-4  dark-light"><p class="text-light d-inline-block bg-dark  px-3 rounded-3">DARK</p><p class="text-dark bg-light px-3 rounded-3  d-inline-block ">LIGHT</p></button>
             </div>
           </div>
           <div class="btn d-none d-lg-block">
@@ -245,7 +246,7 @@
                 iaculis.
               </p>
             </div>
-            <div class="card-dad gx-5 gy-5 row">
+            <div class="card-dad gx-5 gy-5 justify-content-xxl-between row">
               <div class="card mb-4 col-12 col-lg-6 col-xl-6 col-xxl-6">
                 <img
                   src="./images/portfolio-1.png"
@@ -688,6 +689,13 @@
         } else {
           document.getElementById("navbar").classList.remove("navbar-shrink");
         }
+      }
+    </script>
+
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
       }
     </script>
     <!-- java script finished -->

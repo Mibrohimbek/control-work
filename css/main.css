@@ -169,6 +169,21 @@ footer .footer .social-medias .contact-me .github-icon {
   font-family: "Schoolbell";
   src: url(../../fonts/Schoolbell/Schoolbell-Regular.ttf);
 }
+body {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: rgb(19, 29, 39);
+  color: white;
+}
+
+.dark-light {
+  background-image: url("../../images/back-image.png");
+}
+
 #hero {
   background-image: url("../../images/back-image.png");
   padding-bottom: 320px;
@@ -279,6 +294,7 @@ footer .footer .social-medias .contact-me .github-icon {
   height: 30px;
 }
 #service .service .box-dad .box {
+  background-color: #fff;
   background-image: url("../../images/green-circle.png");
   background-repeat: no-repeat;
   background-position: 19px 20px;
@@ -383,6 +399,9 @@ footer .footer .social-medias .contact-me .github-icon {
 }
 #portfolio .card-dad .card {
   border: none !important;
+  width: 40rem;
+  padding: 0;
+  padding-bottom: 50px;
 }
 #portfolio .card-dad .card div:hover a {
   color: rgb(255, 168, 0);

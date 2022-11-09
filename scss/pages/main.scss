@@ -16,6 +16,21 @@
     src: url(../../fonts/Schoolbell/Schoolbell-Regular.ttf);
 }
 
+body {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: rgb(19, 29, 39);
+    color: white;
+}
+
+.dark-light{
+    background-image: url('../../images/back-image.png');
+}
+
 #hero {
     background-image: url('../../images/back-image.png');
 
@@ -90,6 +105,7 @@
     .statistic {
         margin-top: 70px;
         justify-content: space-between;
+
         .achievment {
 
             .number {
@@ -148,6 +164,7 @@
             }
 
             .box {
+                background-color: #fff;
                 background-image: url('../../images/green-circle.png');
                 background-repeat: no-repeat;
                 background-position: 19px 20px;
@@ -268,6 +285,9 @@
 
         .card {
             border: none !important;
+            width: 40rem;
+            padding: 0;
+            padding-bottom: 50px;
 
             div:hover {
                 a {
@@ -545,7 +565,7 @@
         }
     }
 
-    #experiance{
+    #experiance {
         .carousel-control-next {
             left: calc(15% + 120px) !important;
         }
@@ -553,8 +573,9 @@
         .carousel-control-prev {
             left: calc(10% + 60px) !important;
         }
+
         .carousel-control-prev,
-        .carousel-control-next{
+        .carousel-control-next {
             margin-top: -50px !important;
         }
     }
